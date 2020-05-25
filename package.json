@@ -1,0 +1,34 @@
+{
+  "name": "@activatortube/activatortube-remote-update",
+  "version": "1.0.0",
+  "description": "react native 参数更新",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib; yarn tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WheelerLee/activatortube-remote-update.git"
+  },
+  "author": "WheelerLee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WheelerLee/activatortube-remote-update/issues"
+  },
+  "homepage": "https://github.com/WheelerLee/activatortube-remote-update#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-native": "^0.62.11",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2",
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "ios",
+    "lib",
+    "activatortube-remote-update.podspec"
+  ]
+}
