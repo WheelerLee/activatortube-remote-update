@@ -29,6 +29,8 @@
   "files": [
     "ios",
     "lib",
-    "activatortube-remote-update.podspec"
+    "activatortube-remote-update.podspec",
+    "android/src/main",
+    "android/build.gradle"
   ]
 }
