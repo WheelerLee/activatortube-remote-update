@@ -47,7 +47,7 @@ public class ATUpdateCheckerModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void downloadBundle(String url, int version_code, Promise promise) {
+    public void downloadBundle(String url, final int version_code, final Promise promise) {
         OkHttpClient client = new OkHttpClient.Builder().build();
         Request request = new Request.Builder()
                 .url(url)
