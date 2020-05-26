@@ -2,7 +2,8 @@
   "name": "@activatortube/activatortube-remote-update",
   "version": "1.0.0",
   "description": "react native 参数更新",
-  "main": "index.js",
+  "main": "./lib/ATUpdateChecker.js",
+  "typings": "./lib/ATUpdateChecker.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf lib; yarn tsc",
