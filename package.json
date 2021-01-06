@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/react": "^16.9.35",
     "@types/react-native": "^0.62.11",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-native": "^0.62.2",
     "typescript": "^3.9.3"
